@@ -1,0 +1,289 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+* {
+  box-sizing: border-box; /* allows us to tell the browser how to measure our elements.  Now the width property includes content, padding, and border, instead of just the content*/
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color:#033048;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+header h1{
+  display:inline;
+  color:white;
+  padding:20px 0px 0px 50px;
+}
+
+
+/* General */
+body{
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  background-color:#f0efef;
+}
+.button{
+  display:block;
+  text-align:center;
+  padding:8px 15px 8px 15px;
+  margin:10px auto;
+  width:150px;
+  line-height:10px;
+  border-radius:5px;
+  font-weight:900;
+}
+
+section{
+  display:inline-block;
+
+}
+h1{
+  margin:0px;
+  font-size:32px;
+  font-weight:900;
+}
+h2{
+  font-size:20px;
+  font-weight:600;
+  color:#033048;
+}
+p{
+  font-size:13px;
+  font-weight:200;
+}
+ul{
+  list-style-type: disc;
+}
+h3{
+  font-size:32px;
+  font-weight:600;
+  color:#033048;
+  margin:0px 0px 20px 0px;
+}
+
+
+/* Benefits section */
+.benefits-section{
+
+  width:100%;
+  background-color:#f0efef;
+  padding-left:50px;
+}
+
+/* nav */
+nav{
+  background-size:100% 100%;
+  background-color:#033048;
+  color:#f9e42e;
+  height:75px;
+  line-height:75px;
+  border-bottom:5px solid white;
+
+  margin:0px 0px 50px 0px;
+}
+nav a{
+   color:#f9e42e;
+}
+
+nav ol{
+  float:right;
+  margin: 0px 10px 0px 0px;
+  list-style-type: none;
+  font-size:24px;
+  font-weight:600;
+}
+nav ol li{
+
+    margin: 0px 10px 0px 10px;
+    display:inline;
+
+}
+/* Landing */
+
+.landing-section{
+
+  background-image:url("../images/header_bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  width:100%;
+
+
+}
+.landing-section h2{
+    font-size:24px;
+    color:white;
+    font-weight:600;
+    padding:20px 0px 0px 100px;
+}
+.landing-section a{
+  color:#121212;
+  background-color:#f9e42e;
+}
+
+/* Footer */
+
+.footer-full{
+    float:left;
+    width:100%;
+    background-color:#121212;
+    text-align:center;
+}
+.footer-banner{
+  float:left;
+  width:100%;
+  background-size:100% 100%;
+  background-color:#f9e42e;
+
+}
+.footer-banner a{
+  color:white;
+  background-color:#033048;
+}
+footer h1{
+  color:#f9e42e;
+  padding:20px 20px;
+}
+footer p{
+  color:#606161;
+  font-size:9px;
+  font-weight:600;
+  padding:20px;
+}
+footer a{
+  margin:0px 10px;
+}
+
+/* Testimonials */
+.testimonials{
+  background-image:url("../images/testimonial_bg.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+  width:100%;
+  color:#606161
+}
+blockquote{
+  margin:30px 200px 0px 200px;
+  font-style:italic;
+  font-size:18px;
+}
+.testimonials p{
+  text-align:center;
+  color:white;
+}
+.citation{
+  font-size:18px;
+  font-weight:600;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* blog */
+
+.blog{
+  float:left;
+  width:75%;
+  font-size:24px;
+  margin-bottom:100px;
+}
+
+.blog p{
+  font-size:24px;
+  font-weight:100;
+}
+.blog h2{
+  font-size:40px;
+  font-weight:600;
+}
+article{
+  margin:10px 20px 10px 50px;
+}
+article a{
+  display:block;
+  text-align:right;
+  margin-top:40px;
+
+}
+article p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+article img{
+  width:100%;
+  margin:10px 0px;
+}
+
+/* aside */
+
+aside{
+  float:left;
+  width:25%;
+}
+.article-links{
+  font-size:24px;
+  font-weight:lighter;
+}
+aside p{
+  font-size:22px;
+  font-weight:200;
+}
+aside a{
+  font-size:22px;
+  font-weight:600;
+
+}
+aside section{
+  margin:20px 20px 20px 0px;
+}
+
+.ad{
+  height:400px;
+  width:240px;
+  background-color:white;
+}
