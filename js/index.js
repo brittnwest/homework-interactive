@@ -15,8 +15,6 @@ $(document).ready(function(){
                 e.preventDefault();
             });
 })
-
-
 $("#btn btn-primary").click(function(){
   $("#myModal").dialog("close");
 })
@@ -57,9 +55,11 @@ $("#learn-more").click(function(){
 })
 
 $("#sign-up").click(function(){
-
          // show Modal
-         $('#myModal').modal('show:true');
+         $.get('https://brittnwest.github.io/html/home.html',function(html){
+              $("#mymodal").html(html);
+          });
+
     });
 // $("#readMore2").click(function(){
 //   if ($("#addText2").is(":visible")) {
