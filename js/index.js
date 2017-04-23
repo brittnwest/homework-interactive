@@ -56,8 +56,10 @@ $("#learn-more").click(function(){
 
 $("#sign-up").click(function(){
          // show Modal
-         $.get('https://brittnwest.github.io/html/home.html',function(html){
-              $("#mymodal").html(html);
+
+         $.get('http://brittnwest.github.io/html/modal.html',function(html){
+           console.log("good start");
+              $("#myModal").html(html);
           });
 
     });
